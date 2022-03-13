@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
   submitted = false;
   returnUrl: string;
 
+  //Constructor
   constructor(
       private formBuilder: FormBuilder,
       private route: ActivatedRoute,
